@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="ejbs">
+		<class>me.ejb.alphaservices.orm.entities.Department</class>
+		<class>me.ejb.alphaservices.orm.entities.Employee</class>
+		<class>me.ejb.alphaservices.orm.entities.Employeedepartmenthistory</class>
+		<class>me.ejb.alphaservices.orm.entities.EmployeedepartmenthistoryPK</class>
+		<class>me.ejb.alphaservices.orm.entities.Employeepayhistory</class>
+		<class>me.ejb.alphaservices.orm.entities.EmployeepayhistoryPK</class>
+		<class>me.ejb.alphaservices.orm.entities.Jobcandidate</class>
+		<class>me.ejb.alphaservices.orm.entities.Shift</class>
+		<class>me.ejb.alphaservices.orm.entities.Vemployee</class>
+		<class>me.ejb.alphaservices.orm.entities.Vemployeedepartment</class>
+		<class>me.ejb.alphaservices.orm.entities.Vemployeedepartmenthistory</class>
+		<class>me.ejb.alphaservices.orm.entities.Vjobcandidate</class>
+		<class>me.ejb.alphaservices.orm.entities.Vjobcandidateeducation</class>
+		<class>me.ejb.alphaservices.orm.entities.Vjobcandidateemployment</class>
+	</persistence-unit>
+</persistence>

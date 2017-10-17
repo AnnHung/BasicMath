@@ -1,0 +1,4 @@
+me\ejb\alphaservices\AlphaServices.class
+me\ejb\alphaservices\AlphaServicesLocal.class
+me\ejb\alphaservices\AlphaServicesRemote.class
+me\ejb\alphaservices\AlphaServicesManagement.class
