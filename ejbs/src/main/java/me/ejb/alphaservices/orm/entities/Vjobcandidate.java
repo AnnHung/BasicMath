@@ -29,6 +29,7 @@ public class Vjobcandidate implements Serializable {
 	@Column(name="\"Addr.Type\"")
 	private String addr_Type;
 
+	@Id
 	private Integer businessentityid;
 
 	@Column(name="\"EMail\"")

@@ -52,8 +52,9 @@ public class Vjobcandidateeducation implements Serializable {
 	@Column(name="\"Edu.StartDate\"")
 	private Date edu_StartDate;
 
+	@Id
 	private Integer jobcandidateid;
-
+	
 	public Vjobcandidateeducation() {
 	}
 

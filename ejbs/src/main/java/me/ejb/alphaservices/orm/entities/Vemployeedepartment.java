@@ -14,6 +14,7 @@ import java.util.Date;
 public class Vemployeedepartment implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	@Id
 	private Integer businessentityid;
 
 	private Object department;

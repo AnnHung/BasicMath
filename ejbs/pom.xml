@@ -11,7 +11,7 @@
       <version>1.0</version>
    </parent>
    <dependencies>
-   		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>
 		    <groupId>org.hibernate</groupId>
 		    <artifactId>hibernate-core</artifactId>
@@ -25,21 +25,21 @@
 		    <version>5.2.10.Final</version>
 		    <scope>provided</scope>
 		</dependency>
-	   	<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
+		  	<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
 		    <groupId>javax</groupId>
 		    <artifactId>javaee-api</artifactId>
 		    <version>7.0</version>
 		    <scope>provided</scope>
 		</dependency>
-      <dependency>
-         <groupId>root.project</groupId>
-         <artifactId>primary-source</artifactId>
-      </dependency>
-      <dependency>
-         <groupId>root.project.projects</groupId>
-         <artifactId>logging</artifactId>
-      </dependency>
+		 <dependency>
+		    <groupId>root.project</groupId>
+		    <artifactId>primary-source</artifactId>
+		 </dependency>
+		 <dependency>
+		    <groupId>root.project.projects</groupId>
+		    <artifactId>logging</artifactId>
+		 </dependency>
   </dependencies>
    <build>
       <plugins>

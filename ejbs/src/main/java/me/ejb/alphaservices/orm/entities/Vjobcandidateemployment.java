@@ -46,6 +46,7 @@ public class Vjobcandidateemployment implements Serializable {
 	@Column(name="\"Emp.StartDate\"")
 	private Date emp_StartDate;
 
+	@Id
 	private Integer jobcandidateid;
 
 	public Vjobcandidateemployment() {

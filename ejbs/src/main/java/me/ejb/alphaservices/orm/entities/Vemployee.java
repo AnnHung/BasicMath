@@ -19,6 +19,7 @@ public class Vemployee implements Serializable {
 
 	private String addressline2;
 
+	@Id
 	private Integer businessentityid;
 
 	private String city;

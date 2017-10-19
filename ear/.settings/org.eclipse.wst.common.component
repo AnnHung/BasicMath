@@ -5,6 +5,9 @@
         <dependent-module archiveName="ejbs-1.0.jar" deploy-path="/" handle="module:/resource/ejbs/ejbs">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="postgresql-9.4.1208.jar" deploy-path="/" handle="module:/classpath/var/M2_REPO/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="servlet-1.0.war" deploy-path="/" handle="module:/resource/servlet/servlet">
             <dependency-type>uses</dependency-type>
         </dependent-module>
